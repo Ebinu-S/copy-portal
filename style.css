@@ -41,7 +41,7 @@ button{
 
 .tools{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding: 10px 2px;
     background-color: #78e08f;
 }
@@ -61,6 +61,8 @@ button{
     background-color: #bafad4;
     padding: 1rem;
     resize: none;
+    font-family: inherit;
+    color : #010101;
 }
 
 .note{
@@ -100,6 +102,7 @@ button{
     width: 100%;
     background-color: #E4FDE1;
     padding: 1rem;
+    color : #010101;
     overflow: scroll;
 }
 
@@ -137,4 +140,10 @@ body::-webkit-scrollbar{
     text-align: center;
     border-radius: 6px 6px 0 0;
     font-size: 12px;
+    padding: 5px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
 }
